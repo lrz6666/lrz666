@@ -1,4 +1,5 @@
 "use client";
+
 import React from "react";
 import Link from "next/link";
 import Background from "./components/background/backgound";
@@ -52,9 +53,9 @@ export default function Home() {
   ];
 
   return (
-    <div>
+    <div  >
       <Background />
-      <div className=" ">
+      <div className="">
         <header className=" sm:flex justify-around fixed top-0 left-0 w-full hidden p-6 bg-white/20 backdrop-blur-[2px] border-b border-white/30 z-50 ">
           <div className="font-extrabold text-2xl text-shadow-zinc-400 text-shadow-sm">
             Lrz666
@@ -147,7 +148,7 @@ export default function Home() {
               <h1 className="text-2xl text-shadow-black text-shadow-md  sm:text-3xl lg:text-[5rem] font-extrabold text-[#cb6c5b] whitespace-pre-line">
                 Projects
               </h1>
-              <a href="https://lrz666.xyz" target="_blank" className="">
+
                 <div className="flex flex-col p-2 bg-amber-50/60 w-[20rem] h-[30rem] gap-4 md:w-[30rem] md:h-[45rem] md:gap-8 md:p-6 lg:w-[40rem] lg:h-[53rem] lg:gap-8 lg:p-8   items-center shadow-xl shadow-black/50 border-gray-400 rounded-xl border hover:scale-110 duration-300">
                   <img
                     src="/assets/see-u-soon.png"
@@ -171,7 +172,7 @@ export default function Home() {
                     距离不再遥远✨ 见面如此简单🧸{" "}
                   </div>
                   <div className="flex gap-5  md:gap-15">
-                    <a href="https://lrz666.xyz" target="_blank">
+                    <a href="https://see-u-soon.netlify.app" target="_blank">
                       <button className="md:text-lg md:rounded-xl lg:text-2xl 2xl:text-4xl active:scale-90 cursor-pointer bg-[#cb6c5b] p-1 rounded-md text-md font-bold text-white hover:scale-110 hover:bg-gray-700 duration-300">
                         Live Demo
                       </button>
@@ -186,7 +187,6 @@ export default function Home() {
                     </a>
                   </div>
                 </div>
-              </a>
             </div>
           </section>
           <section id="skills" className="">
