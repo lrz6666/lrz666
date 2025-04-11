@@ -138,8 +138,8 @@ export default function Home() {
                   </CardItem>
                 </CardBody>
               </CardContainer>
-              <p className="m-5 text-center text-gray-700 font-bold">Hey! I'm lrz666, a university student and front-end developer. <br></br>I'm passionate about software development and dedicated to building smooth and engaging web experiences.</p>
-              <p className="m-5 text-center text-gray-700 font-bold">Besides coding, I love single-player games and hitting the gym</p>
+              <p className="m-5  text-lg xl:text-2xl text-shadow-2xs text-shadow-black/50 text-center text-gray-700 font-bold">Hey! I'm lrz666, a university student and front-end developer. <br></br>I'm passionate about software development and dedicated to building smooth and engaging web experiences.</p>
+              <p className="m-5  text-lg xl:text-2xl text-shadow-2xs text-shadow-black/50 text-center text-gray-700 font-bold">Besides coding, I love single-player games and hitting the gym</p>
             </div>
           </section>
           <section id="project">
@@ -148,7 +148,7 @@ export default function Home() {
                 Projects
               </h1>
               <a href="https://lrz666.xyz" target="_blank" className="">
-                <div className="flex flex-col p-2 bg-[#d5c9b6] w-[20rem] h-[30rem] gap-4 md:w-[30rem] md:h-[45rem] md:gap-8 md:p-6 lg:w-[40rem] lg:h-[53rem] lg:gap-8 lg:p-8   items-center shadow-xl shadow-black/50 border-gray-400 rounded-xl border hover:scale-110 duration-300">
+                <div className="flex flex-col p-2 bg-amber-50/60 w-[20rem] h-[30rem] gap-4 md:w-[30rem] md:h-[45rem] md:gap-8 md:p-6 lg:w-[40rem] lg:h-[53rem] lg:gap-8 lg:p-8   items-center shadow-xl shadow-black/50 border-gray-400 rounded-xl border hover:scale-110 duration-300">
                   <img
                     src="/assets/see-u-soon.png"
                     className="rounded-xl "
